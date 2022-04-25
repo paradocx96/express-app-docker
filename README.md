@@ -80,7 +80,7 @@ docker push paradocx96/my-express-app:v1
 
 # Run the application on another PC/Laptop
 ```
-Docker run -p 9090:{{port-of-image}} {{original-user-username}}/my-express-app:v1
+Docker run -p {{any-port}}:{{port-of-image}} {{original-user-username}}/my-express-app:v1
 
-Docker run -p 9090:5000 paradocx96/my-express-app:v1
+Docker run -p 9090:8080 paradocx96/my-express-app:v1
 ```
